@@ -4,6 +4,10 @@ Interactive analytics website for the GIU Data Engineering and Visualization pro
 
 The work is exploratory. Associations shown by the dashboard do not establish that housing activity causes traffic injuries or fatalities.
 
+## Live website
+
+[Open the deployed NYC Urban Growth & Road Safety dashboard](https://nyc-urban-growth-road-safety.onrender.com)
+
 ## What the website includes
 
 - Responsive navigation, report controls, KPI cards, and research storytelling.
@@ -113,6 +117,8 @@ gunicorn app:server --bind 0.0.0.0:$PORT
 ```
 
 For Render Blueprint deployment, connect the repository and choose **New Blueprint Instance**. Render will read `render.yaml`, install `requirements.txt`, and start the web service. The health check uses Dash's root route (`/`).
+
+Production URL: [https://nyc-urban-growth-road-safety.onrender.com](https://nyc-urban-growth-road-safety.onrender.com)
 
 ## Validation
 
