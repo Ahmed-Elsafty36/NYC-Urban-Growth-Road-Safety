@@ -106,6 +106,8 @@ Open [http://127.0.0.1:8050](http://127.0.0.1:8050).
 
 The Dash Flask server is exposed as `server = app.server`. Both `render.yaml` and `Procfile` use Gunicorn:
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Ahmed-Elsafty36/NYC-Urban-Growth-Road-Safety)
+
 ```bash
 gunicorn app:server --bind 0.0.0.0:$PORT
 ```
